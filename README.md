@@ -1,4 +1,4 @@
-# uninitialized-constant
+# uninitialized-constant &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/uninitialized-constant.svg?style=flat)](https://www.npmjs.com/package/uninitialized-constant) [![CircleCI Status](https://circleci.com/gh/yungsters/uninitialized-constant.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/yungsters/uninitialized-constant)
 
 `uninitialized-constant` is a utility function for creating a value container that can only be initialized once.
 
