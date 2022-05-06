@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Utility function for creating a value container that can only be initialized once.",
   "type": "module",
+  "main": "./src/uninitializedConstant.js",
   "exports": "./src/uninitializedConstant.js",
   "types": "./src/uninitializedConstant.d.ts",
   "files": [
