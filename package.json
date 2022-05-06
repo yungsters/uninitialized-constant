@@ -7,7 +7,6 @@
   "exports": "./src/uninitializedConstant.js",
   "types": "./src/uninitializedConstant.d.ts",
   "files": [
-    "README.md",
     "src/uninitializedConstant.d.ts",
     "src/uninitializedConstant.js",
     "src/uninitializedConstant.js.flow"
