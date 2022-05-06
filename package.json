@@ -1,6 +1,6 @@
 {
   "name": "uninitialized-constant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility function for creating a value container that can only be initialized once.",
   "type": "module",
   "main": "./src/uninitializedConstant.js",
