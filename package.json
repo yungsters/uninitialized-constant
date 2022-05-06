@@ -1,0 +1,49 @@
+{
+  "name": "uninitialized-constant",
+  "version": "1.0.0",
+  "description": "Utility function for creating a value container that can only be initialized once.",
+  "type": "module",
+  "exports": "./src/uninitializedConstant.js",
+  "types": "./src/uninitializedConstant.d.ts",
+  "files": [
+    "README.md",
+    "src/uninitializedConstant.d.ts",
+    "src/uninitializedConstant.js",
+    "src/uninitializedConstant.js.flow"
+  ],
+  "repository": "yungsters/uninitialized-constant",
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow .",
+    "prepare": "husky install",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest src/uninitializedConstant.test.js",
+    "tsc": "tsc --noEmit --strict src/uninitializedConstant.test-d.ts"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.177.0",
+    "husky": "^7.0.4",
+    "jest": "^28.1.0",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {},
+    "rootDir": "src"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSameLine": true,
+    "bracketSpacing": false,
+    "requirePragma": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
